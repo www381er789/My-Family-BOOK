@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1 {
+   text-shadow: 2px 2px fuchsia;
+    color: bisque;
+    background-color:thistle;
+}
+
+#next {
+    background-image: linear-gradient(fuchsia, blue, yellow, fuchsia)
+}

@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>My Family Book</title>
+    <link href="style.css" rel="stylesheet">
+    <script>
+        var images = ["brother.PNG", "cousin.PNG", "father.PNG", "grandma.PNG", "grandpa.PNG", "mother.PNG", "sister.PNG", "snowy.Png", "family.png", ];
+        var mynames = ["Aakash", "harshit", "Sunil", "Meera", "Dev", "Nandini", "Tia", "Snowy", "My Family", ];
+        var i = 0;
+
+        function nextimage() {
+            document.getElementById("front_page").src = images[i];
+            document.getElementById("names").innerHTML = mynames[i];
+            i++;
+        }
+
+    </script>
+</head>
+
+<body> <img src="Capture.PNG" id="front_page" width="300">
+    <p id="names">NAMES</p> <button type="button" onclick="nextimage()">NEXT</button>
+</body>
+
+</html>
